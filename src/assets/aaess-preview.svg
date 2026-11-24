@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1424"/>
+      <stop offset="100%" stop-color="#0f0c16"/>
+    </linearGradient>
+    <linearGradient id="chart" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e2f752" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#e2f752" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+
+  <!-- Window Frame -->
+  <rect x="24" y="24" width="752" height="452" rx="10" fill="#140f1d" stroke="#3d324c" stroke-width="1.5"/>
+
+  <!-- Header Bar -->
+  <rect x="24" y="24" width="752" height="44" rx="10" fill="#1c1628"/>
+  <circle cx="50" cy="46" r="5" fill="#e2f752"/>
+  <circle cx="68" cy="46" r="5" fill="#a48eb8"/>
+  <circle cx="86" cy="46" r="5" fill="#4d3e5e"/>
+  <text x="110" y="51" fill="#d6cee0" font-family="system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.05em">AAESS // STUDENT PERFORMANCE &amp; ADVISOR</text>
+  <rect x="670" y="34" width="86" height="24" rx="12" fill="#2d223e"/>
+  <text x="713" y="50" fill="#e2f752" font-family="monospace" font-size="10" font-weight="bold" text-anchor="middle">GROQ AI LIVE</text>
+
+  <!-- Left Column: Metrics & Analytics -->
+  <rect x="48" y="88" width="330" height="170" rx="8" fill="#1e182b" stroke="#382d49" stroke-width="1"/>
+  <text x="68" y="116" fill="#9b8ba9" font-family="system-ui, sans-serif" font-size="11" letter-spacing="0.05em" text-transform="uppercase">Semester GPA Progress</text>
+  <text x="68" y="152" fill="#f6f3ee" font-family="system-ui, sans-serif" font-size="34" font-weight="bold">4.82 <tspan fill="#e2f752" font-size="16">/ 5.0</tspan></text>
+  <text x="68" y="174" fill="#69db7c" font-family="system-ui, sans-serif" font-size="12">↑ +0.34 vs previous term</text>
+
+  <!-- Chart lines -->
+  <path d="M 68 234 L 120 220 L 175 226 L 230 198 L 285 204 L 340 180" fill="none" stroke="#e2f752" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="340" cy="180" r="4" fill="#e2f752"/>
+
+  <!-- Left Column Bottom: Courses -->
+  <rect x="48" y="274" width="330" height="178" rx="8" fill="#1e182b" stroke="#382d49" stroke-width="1"/>
+  <text x="68" y="302" fill="#9b8ba9" font-family="system-ui, sans-serif" font-size="11" letter-spacing="0.05em">COURSE COMPLETION</text>
+
+  <text x="68" y="336" fill="#f6f3ee" font-family="system-ui, sans-serif" font-size="13" font-weight="500">CSC 401 — Advanced Algorithms</text>
+  <rect x="68" y="346" width="290" height="6" rx="3" fill="#2d233e"/>
+  <rect x="68" y="346" width="260" height="6" rx="3" fill="#e2f752"/>
+
+  <text x="68" y="386" fill="#f6f3ee" font-family="system-ui, sans-serif" font-size="13" font-weight="500">CSC 415 — Database Systems II</text>
+  <rect x="68" y="396" width="290" height="6" rx="3" fill="#2d233e"/>
+  <rect x="68" y="396" width="210" height="6" rx="3" fill="#d6cee0"/>
+
+  <text x="68" y="432" fill="#f6f3ee" font-family="system-ui, sans-serif" font-size="13" font-weight="500">CSC 421 — Artificial Intelligence</text>
+  <rect x="68" y="440" width="290" height="6" rx="3" fill="#2d233e"/>
+  <rect x="68" y="440" width="240" height="6" rx="3" fill="#a48eb8"/>
+
+  <!-- Right Column: AI Advisor Chat -->
+  <rect x="398" y="88" width="358" height="364" rx="8" fill="#1e182b" stroke="#382d49" stroke-width="1"/>
+  <rect x="398" y="88" width="358" height="42" rx="8" fill="#251d34"/>
+  <text x="418" y="114" fill="#f6f3ee" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Groq AI Study Advisor</text>
+  <circle cx="730" cy="109" r="4" fill="#69db7c"/>
+
+  <!-- Chat Bubbles -->
+  <!-- Student msg -->
+  <rect x="520" y="150" width="216" height="48" rx="8" fill="#35294a"/>
+  <text x="536" y="172" fill="#f6f3ee" font-family="system-ui, sans-serif" font-size="12">How should I prepare for the</text>
+  <text x="536" y="188" fill="#f6f3ee" font-family="system-ui, sans-serif" font-size="12">algorithms exam next Tuesday?</text>
+
+  <!-- AI Response -->
+  <rect x="418" y="214" width="318" height="110" rx="8" fill="#261d36" stroke="#483861" stroke-width="1"/>
+  <text x="434" y="238" fill="#e2f752" font-family="system-ui, sans-serif" font-size="11" font-weight="600">AI Advisor Pattern</text>
+  <text x="434" y="260" fill="#d6cee0" font-family="system-ui, sans-serif" font-size="12">1. Dynamic Programming breakdown</text>
+  <text x="434" y="280" fill="#d6cee0" font-family="system-ui, sans-serif" font-size="12">2. Graph traversal review (BFS/DFS)</text>
+  <text x="434" y="300" fill="#d6cee0" font-family="system-ui, sans-serif" font-size="12">3. 2 practice problem sets allocated</text>
+
+  <!-- Input Field -->
+  <rect x="418" y="394" width="318" height="40" rx="6" fill="#161121" stroke="#413456" stroke-width="1"/>
+  <text x="434" y="419" fill="#7d6e91" font-family="system-ui, sans-serif" font-size="12">Ask your study question…</text>
+  <rect x="696" y="401" width="28" height="26" rx="4" fill="#e2f752"/>
+  <text x="710" y="418" fill="#1b1822" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">↑</text>
+</svg>
